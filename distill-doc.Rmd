@@ -10,7 +10,7 @@ output:
 
 ### Plots
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 library(ggplot2)
 library(plotly)
 ```

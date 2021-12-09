@@ -12,13 +12,13 @@ output:
         google: "Fira Mono"
 ---
 
-```{r setup, include=FALSE, eval = TRUE}
+```{r setup, include=FALSE, eval = FALSE}
 thematic::thematic_rmd()
 ```
 
 ### Plots
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 library(ggplot2)
 library(plotly)
 ```
