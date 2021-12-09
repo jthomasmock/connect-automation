@@ -36,6 +36,8 @@ class: title-slide, left, top
 
 <span style='color:white; font-size:110%;'>Slides: [colorado.rstudio.com/rsc/automate](https://colorado.rstudio.com/rsc/automate)</span>  
 
+<span style='color:white; font-size:110%;'>Code: [github.com/jthomasmock/connect-automation](https://github.com/jthomasmock/connect-automation)</span>  
+
 <span style='color:white;'>Slides released under</span> [CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/)&nbsp;&nbsp;`r fontawesome::fa("creative-commons", "white")``r fontawesome::fa("creative-commons-by", "white")` ]   
 
 <div style = "position: absolute;top: 0px;right: -90px;"><img src="https://images.unsplash.com/photo-1533749047139-189de3cf06d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" alt="A blue and yellow galaxy with many stars" height="700"></img></div>

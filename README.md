@@ -3,6 +3,8 @@
 
 [YouTube Video](https://www.youtube.com/watch?v=iJspIB-Wh38)
 
+[Slides](https://colorado.rstudio.com/rsc/automate)
+
 You built a great data science product. Something your stakeholders want and have been asking for.  
 
 But operationalizing that data product is hard. 
