@@ -1,0 +1,46 @@
+---
+title: "A themed report"
+output:
+  html_document:
+    theme:
+      bg: "#F8F8F8"
+      fg: "#404040"
+      primary: "#4D8DC9"
+      base_font:
+        google: "Fira Sans"
+      code_font:
+        google: "Fira Mono"
+---
+
+```{r setup, include=FALSE, eval = TRUE}
+thematic::thematic_rmd()
+```
+
+### Plots
+
+```{r}
+library(ggplot2)
+library(plotly)
+```
+
+```{r, fig.retina=2}
+plot_ex <- ggplot(mtcars, aes(x = disp, y = mpg, color = factor(cyl))) +
+  geom_point(size = 3)
+plot_ex
+```
+
+```{r}
+plotly::ggplotly(plot_ex)
+```
+
+### `DT` Tables
+
+```{r}
+library(DT)
+```
+
+```{r}
+DT::datatable(mtcars)
+```
+
+
